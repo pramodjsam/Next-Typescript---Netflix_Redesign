@@ -42,10 +42,10 @@ npm start
 <img src="./screenshots/auth.png" width="800" height="400">
 
 ## Performance Test
-<img src="./screenshots/Performance.png" width="800" height="400">
+<img src="./screenshots/performance.JPG" width="800" height="400">
 
 ## Hosted
-The link for the finished website - [Click Here](https://next-typescript-apple-redesign.vercel.app/)
+The link for the finished website - [Click Here](https://next-typescript-netflix-redesign.vercel.app/)
 
 <!-- ## License
 
