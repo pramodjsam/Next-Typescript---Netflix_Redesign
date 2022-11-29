@@ -1,27 +1,60 @@
-# Next.js + Tailwind CSS Example
+# Netflix Website
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Netflix Website redesign and developed using Next, Typescript and Firebase.
 
-## Deploy your own
+## Features
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- Users can visit the website and view trailers of movies
+- authentication using firebase
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Tech
 
-## How to use
+This application uses a number of open source projects to work properly:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- [Next] - Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.
+- [Stripe] -  Stripe provides APIs to accept credit cards, manage subscriptions, send money, run a marketplace.
+- [Redux] - Redux is an open-source JavaScript library for managing and centralizing application state.
+- [Sanity] - Sanity is the platform for structured content that lets your team work together in real-time to build engaging digital experiences across channels..
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+And of course this application itself is open source with every code available here in github.
+
+## Installation
+
+Requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Install the dependencies and start the server.
+
+```sh
+npm install
+npm start
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Screenshot
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+##### Home
+<img src="./screenshots/Home.png" width="800" height="400">
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+##### Products
+<img src="./screenshots/Genres.png" width="800" height="400">
+
+##### Orders
+<img src="./screenshots/Order.png" width="800" height="400">
+
+##### Cart
+<img src="./screenshots/Cart.png" width="800" height="400">
+
+##### Checkout
+<img src="./screenshots/Checkout.png" width="800" height="400">
+
+##### Summary
+<img src="./screenshots/Summary.png" width="800" height="400">
+
+## Performance Test
+<img src="./screenshots/Performance.png" width="800" height="400">
+
+## Hosted
+The link for the finished website - [Click Here](https://next-typescript-apple-redesign.vercel.app/)
+
+<!-- ## License
+
+MIT -->
