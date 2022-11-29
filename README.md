@@ -1,20 +1,21 @@
 # Netflix Website
 
-Netflix Website redesign and developed using Next, Typescript and Firebase.
+Netflix Website redesign and developed using Next, Recoil, Typescript and Firebase.
 
 ## Features
 
 - Users can visit the website and view trailers of movies
-- authentication using firebase
+- Authentication using firebase
+- State management system using Recoil
 
 ## Tech
 
 This application uses a number of open source projects to work properly:
 
 - [Next] - Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.
-- [Stripe] -  Stripe provides APIs to accept credit cards, manage subscriptions, send money, run a marketplace.
-- [Redux] - Redux is an open-source JavaScript library for managing and centralizing application state.
-- [Sanity] - Sanity is the platform for structured content that lets your team work together in real-time to build engaging digital experiences across channels..
+- [Typescript] - It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript.
+- [Recoil] - Recoil is an experimental state management library and It provides several capabilities that are difficult to achieve with React alone.In this article we learn about the recoil. js, and how it is managing state in react. JavaScript React Recoil. Recoil js is another state management library for React.
+- [Firebase] - Firebase is a set of hosting services for any type of application. It offers NoSQL and real-time hosting of databases, content, social authentication, and notifications, or services, such as a real-time communication server.
 
 And of course this application itself is open source with every code available here in github.
 
@@ -32,22 +33,13 @@ npm start
 ## Screenshot
 
 ##### Home
-<img src="./screenshots/Home.png" width="800" height="400">
+<img src="./screenshots/hom.png" width="800" height="400">
 
-##### Products
-<img src="./screenshots/Genres.png" width="800" height="400">
+##### Genres
+<img src="./screenshots/gen.png" width="800" height="400">
 
-##### Orders
-<img src="./screenshots/Order.png" width="800" height="400">
-
-##### Cart
-<img src="./screenshots/Cart.png" width="800" height="400">
-
-##### Checkout
-<img src="./screenshots/Checkout.png" width="800" height="400">
-
-##### Summary
-<img src="./screenshots/Summary.png" width="800" height="400">
+##### Authentication Page
+<img src="./screenshots/auth.png" width="800" height="400">
 
 ## Performance Test
 <img src="./screenshots/Performance.png" width="800" height="400">
